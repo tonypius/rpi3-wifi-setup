@@ -1,7 +1,7 @@
 #!/bin/bash/
 echo "Installing hostapd and dnsmasq ..."
 
-sudo apt-get install dnsmasq hostapd
+sudo apt-get install dnsmasq hostapd -y
 
 echo "Done installing both..."
 
